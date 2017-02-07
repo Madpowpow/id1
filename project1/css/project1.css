@@ -1,0 +1,17 @@
+body {
+    width: 100%;
+    background-color:black;
+}
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: monospace;
+}
+p {
+    color: whitesmoke;
+    width: 80%;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+}
