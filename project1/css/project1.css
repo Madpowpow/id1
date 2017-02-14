@@ -1,32 +1,30 @@
 body {
-    margin:0;
     width: 100%;
+    margin:0;
     background-color:black;
-    font-size:100%;
 }
 h1 {
-    color: whitesmoke;
-    text-align: center;
-    font-family: 'Roboto Mono' monospace;
-    letter-spacing: -.01em;
+    font-family: 'Bitter', serif;
     font-size: 3em;
+    text-align: center;
+    color: whitesmoke;
 }
 h5 {
-    color: lightgray;
-    text-align: center;
-    font-family: 'Fira Sans', sans-serif; 
-    font-size: .8em;
     margin-top: -2.5%;
     margin-bottom: 3%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: .8em;
+    text-align: center; 
+    color: lightgray;
 }
 p {
-    color: whitesmoke;
     width: 80%;
-    font-family: 'Fira Sans', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
-    text-indent: 1em;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 1em;
+    text-indent: 1em;
+    color: whitesmoke;
 }
 p#para {
     padding-bottom: 2%;
