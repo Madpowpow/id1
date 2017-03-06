@@ -1,0 +1,44 @@
+/* Desktop */
+body {
+    margin: 0;
+    background-color: #180134;
+}
+header {
+    width: 100%;
+    position: relative;
+}
+h2 {
+    text-align: center;
+    color: #FB4630;
+}
+h3 {
+    text-align: center;
+    color:#FFA4C6;
+        0039DE;
+}
+h4 {
+    color: #FB4630;
+}
+h5 {
+    color: #FB4630;
+}
+p {
+    color: #FFA4C6;
+}
+img {
+    width: 100%;
+}
+ol {
+    color: #FFA4C6;
+    color: 
+}
+/* Mobile */
+@media only screen and (max-width:500px) {
+    body {
+        width 80%;
+        padding: 2% 2%;
+    }
+    img {
+        width: 100%;
+    }
+}

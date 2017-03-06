@@ -1,0 +1,18 @@
+body {
+    margin:0;
+    width: 100%;
+    background-color:black;
+    font-size:100%;
+}
+p {
+    color: whitesmoke;
+    width: 80%;
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-indent: 1em;
+    font-size: 1em;
+}
+img {
+    width: 100%;
+}
