@@ -32,20 +32,28 @@ footer {
     margin-bottom: 2%;
     margin-left: 15%;
     padding-top: 1%;
-    border-top: 1px   #0039DE;  
+    border-top: 1px dashed   #0039DE;  
 }
 h2 {
     text-align: center;
     color: #FB4630;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif; 
 }
 h3,h4, h5 {
     color: #FB4630;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
 }
 p {
     color: #FFA4C6;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 img {
     width: 100%;
+}
+img#githublogo {
+    width: 22%
 }
 section#about img {
     width:50%;
