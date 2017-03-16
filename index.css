@@ -26,6 +26,9 @@ section#about {
     padding right:0;
     border-top: 1px dashed #0039DE;
 }
+a{
+    color: #0039DE;
+}
 footer {
     clear: left;
     width: 75%;
@@ -40,6 +43,10 @@ h2 {
     font-size: 2em;
     font-family: 'Playfair Display', serif; 
 }
+h3{
+    text-align: center;
+    margin-top: -20px;
+}
 h3,h4, h5 {
     color: #FB4630;
     font-size: 1.5em;
@@ -48,29 +55,42 @@ h3,h4, h5 {
 p {
     color: #FFA4C6;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+     
 }
 img {
     width: 100%;
 }
 img#githublogo {
-    width: 22%
+    width: 12%
 }
 section#about img {
     width:50%;
-    border-style: dotted;
-    border-color: #FFA4C6;
-    margin-bottom: 20px;
+    margin-left: 25%;
 }
 ol {
     color: #FFA4C6;
+    margin-top: -20px;
 }
 /* Mobile */
 @media only screen and (max-width:500px) {
     body {
         width 80%;
-        padding: 2% 2%;
     }
     img {
         width: 100%;
+    }
+  section#excrcises,#projects{
+        width:80%;
+        clear: both;
+        margin-top: -15px;
+    }
+    section#projects{
+        margin-top: -45px;
+    }
+    section#about img {
+        width: 75%;
+        margin-left: 12.5%;
+        padding-bottom: 2%;
     }
 }
