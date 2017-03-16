@@ -56,13 +56,14 @@ p {
     color: #FFA4C6;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
-     
+
 }
 img {
     width: 100%;
 }
 img#githublogo {
-    width: 12%
+    width: 12%;
+    margin-left: 44%;
 }
 section#about img {
     width:50%;
@@ -73,14 +74,14 @@ ol {
     margin-top: -20px;
 }
 /* Mobile */
-@media only screen and (max-width:500px) {
+@media (max-width:500px) {
     body {
         width 80%;
     }
     img {
         width: 100%;
     }
-  section#excrcises,#projects{
+    section#excrcises,#projects{
         width:80%;
         clear: both;
         margin-top: -15px;
