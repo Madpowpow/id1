@@ -1,17 +1,23 @@
-body {
+body{
     width: 100%;
     margin: 0;
-    background-color: dimgray
+    background-color: dimgray;
 }
-img {
-    width: 100%;
+h2{
+    text-align: center;
+    color: #f6fb65;
+    font-size: 1.5em;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin: 5%
 }
-img#turk {
-    width: 100%;
-    margin: 0;
+p{
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-section {
-    width: 100%;
+img{
+    width: 100%
 }
 ul {
     list-style-type: none;
