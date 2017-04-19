@@ -15,6 +15,7 @@ p{
     color: whitesmoke;
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 1em;
 }
 img{
     width: 100%
@@ -40,4 +41,24 @@ ul {
 }
 .topnav a.active {
     color: whitesmoke;
+}
+#gofundme, #redcross {
+    width: 100%;
+    padding: 3% 2%;
+    background-color: darkgray;
+    text-align: center; 
+    font-size: 1em;
+    font-family:  'Raleway', sans-serif; 
+}
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+a{
+    display: block;
+    color: #f6fb65;
+    text-decoration: none;
+}
+#fack {
+    padding-bottom: 4%
 }
